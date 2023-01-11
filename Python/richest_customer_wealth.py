@@ -10,6 +10,8 @@ Explicação :
 1 cliente possui = 1 + 2 + 3 = 6
 2 cliente possui = 3 + 3 + 1 = 7
 O cliente mais rico é o 2 com uma riqueza de 7, então retorne 7.
+
+https://leetcode.com/problems/richest-customer-wealth/description/
 '''
 
 class Solution(object):
