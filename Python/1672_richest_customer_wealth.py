@@ -13,6 +13,6 @@ O cliente mais rico é o 2 com uma riqueza de 7, então retorne 7.
 '''
 
 class Solution(object):
-    def maximumWealth(accounts):
+    def maximum_wealth(accounts):
         return max(sum(value) for value in accounts)
-    print(maximumWealth([[1,2],[5,4],[3,3]]))
+    print(maximum_wealth([[1,2],[5,4],[3,3]]))

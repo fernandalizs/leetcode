@@ -8,9 +8,9 @@ Saída: 1
 '''
 
 class Solution(object):
-    def singleNumber(nums):
+    def single_number(nums):
         diff = nums[0]
         for i in range (1, len(nums)): 
             diff ^= nums[i]
         return diff
-    print(singleNumber([1,1,2,2,3]))
+    print(single_number([1,1,2,2,3]))
