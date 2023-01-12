@@ -15,12 +15,12 @@ https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-op
 */
 
 const countDistinctIntegers = function(nums) {
-    let list = []
+    let reverseList = []
     for (num of nums){
         let revert = num.toString().split('').reverse().join('')
-        revertList.push(Number(rev))
+        reverseList.push(Number(revert))
     }
-    let newList = nums.concat(list)
+    let newList = nums.concat(reverseList)
     return [...new Set(newList)].length
 };
 console.log(countDistinctIntegers([1,13,10,12,31]))
