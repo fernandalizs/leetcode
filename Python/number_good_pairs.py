@@ -11,7 +11,7 @@ https://leetcode.com/problems/number-of-good-pairs/
 '''
 
 class Solution:
-    def numIdenticalPairs(nums):
+    def num_identical_pairs(nums):
         count_numbers = {}
         pairs = 0
         for num in nums:
@@ -21,4 +21,4 @@ class Solution:
             else:
                 count_numbers[num] = 1
         return pairs
-    print(numIdenticalPairs([1,2,3,1,1,3]))
+    print(num_identical_pairs([1,2,3,1,1,3]))
