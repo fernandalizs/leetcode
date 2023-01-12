@@ -14,6 +14,7 @@ Explicação: Se você der todos os doceExtras para:
 - Criança 4, terão 1 + 3 = 4 bombons, o que não é o maior entre as crianças.
 - Criança 5, terão 3 + 3 = 6 bombons, que é o maior entre as crianças.
 */
+
 const kidsWithCandies = function(candies, extraCandies) {
     let count = []
     let maxCandies = Math.max.apply(0, candies)

@@ -15,6 +15,7 @@ Assim, o número máximo de palavras em uma única frase vem da terceira frase, 
 
 https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 */
+
 const mostWordsFound = function(sentences) {
     let count = 0
     for (sentence of sentences){
