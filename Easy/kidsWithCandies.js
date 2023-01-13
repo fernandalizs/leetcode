@@ -18,16 +18,16 @@ https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/descripti
 */
 
 const kidsWithCandies = function(candies, extraCandies) {
-    let count = []
+    let boolList = []
     let maxCandies = Math.max.apply(0, candies)
     for (candy of candies) {
         let totalCandies = candy + extraCandies
         if (totalCandies >= maxCandies) {
-            count.push(true)
+            boolList.push(true)
         } else {
-            count.push(false)
+            boolList.push(false)
         }
     }
-    return count
+    return boolList
 };
 console.log(kidsWithCandies([2,3,5,1,3], 3))
