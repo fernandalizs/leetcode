@@ -10,7 +10,7 @@ Retorne o menor número de dias possível para todas as sementes estarem desabro
 Exemplo:
 Entrada: plantTime = [1,4,3], growTime = [2,3,1]
 Saída: 9
-Explicação: 
+Explicação:
 No dia 0, plante a 1ª semente. A semente cresce por 2 dias completos e floresce no dia 3.
 Nos dias 1, 2, 3 e 4, plante a 2ª semente . A semente cresce por 3 dias completos e floresce no dia 8.
 Nos dias 5, 6 e 7, plante a 3ª semente. A semente cresce por 1 dia inteiro e floresce no dia 9.
@@ -30,3 +30,4 @@ class Solution(object):
             day_today += time_plant
         return days_all_bloom
     print(earliest_full_bloom([1,4,3], [2,3,1]))
+    
