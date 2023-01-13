@@ -1,5 +1,5 @@
 /*
-Uma frase é uma lista de palavras separadas por um único espaço, sem espaços iniciais ou finais.
+Uma frase é uma série de palavras separadas por um único espaço, sem espaços iniciais ou finais.
 Você recebe uma lista de frases, onde cada string representa uma única frase.
 Retorne o número máximo de palavras que aparecem em uma única frase.
 
@@ -17,11 +17,11 @@ https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
 */
 
 const mostWordsFound = function(sentences) {
-    let count = 0
+    let wordsCount = 0
     for (sentence of sentences){
         let lists = sentence.split(" ")
-        count = Math.max(count, lists.length)
+        wordsCount = Math.max(wordsCount, lists.length)
     }
-    return count
+    return wordsCount
 };
 console.log(mostWordsFound(["alice e bob amam programar", "eu também acho", "uau isso é ótimo muito obrigado"]))
