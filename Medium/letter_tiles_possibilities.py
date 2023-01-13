@@ -14,12 +14,12 @@ import itertools
 
 class Solution(object):
     def num_tile_possibilities(tiles):
-        lista = []
+        letters_list = []
         sequences = []
         for letter in tiles:
-            lista.append(letter)
-        for item in range(0, len(lista)+1):
-            for sequence in itertools.permutations(lista, item):
+            letters_list.append(letter)
+        for item in range(0, len(letters_list)+1):
+            for sequence in itertools.permutations(letters_list, item):
                 sequences.append(sequence)
         return(len(set(sequences)) - 1)
     print(num_tile_possibilities("ABB"))
