@@ -11,18 +11,18 @@ https://leetcode.com/problems/maximum-gap/
 */
 
 const maximumGap = function(nums) {
-    let list = []
+    let gapList = []
     let numbers = nums.sort((a,b) => a-b)
     if (nums.length < 2){
         return 0
     } else {
         for (var i = 0; i < (numbers.length); i++){
             if (numbers[i+1]){
-                let result = numbers[i+1] - numbers[i]
-                list.push(result)
+                let numGap = numbers[i+1] - numbers[i]
+                gapList.push(numGap)
             }
         }
-        return Math.max.apply(0, list)
+        return Math.max.apply(0, gapList)
     }
 };
 console.log(maximumGap([1,3,100]))
