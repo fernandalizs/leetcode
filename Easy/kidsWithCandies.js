@@ -14,7 +14,7 @@ Explicação: Se você der todos os doceExtras para:
 - Criança 4, terão 1 + 3 = 4 bombons, o que não é o maior entre as crianças.
 - Criança 5, terão 3 + 3 = 6 bombons, que é o maior entre as crianças.
 
-https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/description/
+https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/submissions/876437769/
 */
 
 const kidsWithCandies = function(candies, extraCandies) {

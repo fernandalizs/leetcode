@@ -16,7 +16,7 @@ Nos dias 1, 2, 3 e 4, plante a 2ª semente . A semente cresce por 3 dias complet
 Nos dias 5, 6 e 7, plante a 3ª semente. A semente cresce por 1 dia inteiro e floresce no dia 9.
 Assim, no dia 9, todas as sementes estão florescidas.
 
-https://leetcode.com/problems/earliest-possible-day-of-full-bloom/
+https://leetcode.com/problems/earliest-possible-day-of-full-bloom/submissions/877660131/
 '''
 
 class Solution(object):

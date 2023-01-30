@@ -6,8 +6,7 @@ Exemplo:
 Entrada: nums = [2,2,1]
 Saída: 1
 
-https://leetcode.com/problems/single-number/
-'''
+https://leetcode.com/problems/single-number/submissions/876131221/'''
 
 class Solution(object):
     def single_number(nums):

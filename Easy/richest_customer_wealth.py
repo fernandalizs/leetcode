@@ -12,7 +12,7 @@ Explicação:
 2 cliente possui = 3 + 3 + 1 = 7
 O cliente mais rico é o 2 com uma riqueza de 7, então retorne 7.
 
-https://leetcode.com/problems/richest-customer-wealth/description/
+https://leetcode.com/problems/richest-customer-wealth/submissions/876279218/
 '''
 
 class Solution(object):

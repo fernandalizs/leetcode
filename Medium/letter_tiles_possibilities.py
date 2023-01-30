@@ -7,7 +7,7 @@ Entrada: tiles = "AAB"
 Saída: 8
 Explicação: As sequências possíveis são "A", "B", "AA", "AB", "BA", "AAB", "ABA", "BAA".
 
-https://leetcode.com/problems/letter-tile-possibilities/description/
+https://leetcode.com/problems/letter-tile-possibilities/submissions/877408127/
 '''
 
 import itertools

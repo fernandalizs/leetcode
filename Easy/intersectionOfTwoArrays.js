@@ -6,7 +6,7 @@ Exemplo:
 Entrada: nums1 = [1,2,2,1], nums2 = [2,2]
 Saída: [2]
 
-https://leetcode.com/problems/intersection-of-two-arrays/description/
+https://leetcode.com/problems/intersection-of-two-arrays/submissions/876167703/
 */
 
 const intersection = function(nums1, nums2) {

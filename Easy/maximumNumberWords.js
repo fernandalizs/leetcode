@@ -13,7 +13,7 @@ Explicação:
 - A terceira frase, "uau isso é ótimo muito obrigado", tem 6 palavras no total.
 Assim, o número máximo de palavras em uma única frase vem da terceira frase, que possui 6 palavras.
 
-https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/
+https://leetcode.com/problems/maximum-number-of-words-found-in-sentences/submissions/876414379/
 */
 
 const mostWordsFound = function(sentences) {

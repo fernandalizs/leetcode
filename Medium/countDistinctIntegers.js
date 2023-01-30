@@ -11,7 +11,7 @@ Explicação: Depois de incluir o reverso de cada número, a matriz resultante �
 Observe que para o inteiro 10, após invertê-lo, ele se torna 01, que é o mesmo que 1.
 O número de inteiros distintos nesta matriz é 6 (sendo eles 1, 10, 12, 13, 21 e 31).
 
-https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/description/
+https://leetcode.com/problems/count-number-of-distinct-integers-after-reverse-operations/submissions/876980220/
 */
 
 const countDistinctIntegers = function(nums) {

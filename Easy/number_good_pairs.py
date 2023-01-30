@@ -7,7 +7,7 @@ Entrada: nums = [1,2,3,1,1,3]
 Saída: 4
 Explicação: Existem 4 pares iguais (0,3), (0,4), (3,4), (2,5).
 
-https://leetcode.com/problems/number-of-good-pairs/
+https://leetcode.com/problems/number-of-good-pairs/submissions/876812777/
 '''
 
 class Solution:
